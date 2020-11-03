@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'Turtle 3' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for Turtle 3
+
+# add the Firebase pod for Google Analytics
+pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
+pod 'Firebase/Core'
+pod 'Firebase/Storage'
+pod 'Firebase/DynamicLinks'
+pod 'Firebase/Messaging' 
+pod 'Firebase/RemoteConfig'
+pod 'Firebase/Analytics'
+pod 'Firebase/Auth'
+pod 'Firebase/Database'
+pod 'Firebase/RemoteConfig'
+pod 'Firebase/Storage'
+pod 'Firebase/Crashlytics'
+pod 'GoogleSignIn'
+pod 'Firebase/Database'
+pod 'Firebase/Firestore'
+# add pods for any other desired Firebase products
+# https://firebase.google.com/docs/ios/setup#available-pods
+
+
+
+end
